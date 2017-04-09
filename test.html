@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:style="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bank robbery</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="prologue main">
+        <div class="prologDiv">
+            <p class="prologText">Привет, это пишу тебе я, Джон. Мы сидели вместе в 90ых, помнишь? Есть такая маза Джек,
+                дело по-крупному. Я собрал отличную команду, и помня твои навыки сетевой работы, хочу пригласить тебя тоже.
+                Мы устроим мега заворушку в этом городе! Наша цель - сейф на 12ом этаже банка, в котором хранится
+                1млрд баксов наличкой. Наличкой, Джек, наличкой! Ты как, в теме?
+            </p>
+            <img src="imgs/level0.jpg" class="taskImg"/>
+        </div><br/>
+        <button id="ImIn">Я в деле!</button>
+    </div>
+    <div class="main tasks" hidden>
+        <h1 class="questaton">QUESTATON</h1>
+        <p id="motto">По-настоящему мозги включаются только тогда, когда помощи ждать неоткуда</p>
+        <br/>
+        <div class="taskDiv">
+            <p class="taskText">Итак, Джек, знакомься с командой.
+                Лиза - высококачественный подрывник, Малкольм - прошел все горячие точки и 3 последних дела уже мы вместе. Мы с ним мотали как-то вместе, хороший парень, правда иногда ему бошку сносит. Так вот, мы берем на этой неделе банк `Веркут` - у нас есть осведомитель оттуда.
+                Что ж, для начала нам нужно обесточить здание, что бы оно перешло на резервный генератор и мы смогли зайти с черного входа в обход сигнализации. Поэтому будем ломать ОблЭнерго.
+
+                От тебя нужно совсем немногое - давай `GET`ом по “/level1/simpleGet”
+            </p>
+            <img src="imgs/level1.jpg" id="taskImg" class="taskImg"/>
+        </div>
+        <br/>
+        <span class="error"></span>
+        <br/><br/>
+        <span>Enter your Team Name: </span>
+        <input type="text" id="teamName">
+        <br/>
+        <span>Enter the Level Key: </span>
+        <input type="text" id="keyLevel">
+        <br/><br/>
+        <button id="submitBtn">Submit!</button>
+        <br/><br/>
+    </div>
+</body>
+</html>

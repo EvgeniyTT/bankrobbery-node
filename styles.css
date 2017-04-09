@@ -1,0 +1,25 @@
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.questaton {
+    color: blue;
+    text-align: center;
+}
+.error {
+    color: red;
+}
+#motto {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 20%;
+}
+.taskImg {
+    width: 100%;
+}
+#submitBtn, #ImIn {
+    display:block;
+    margin: 0 auto;
+}
