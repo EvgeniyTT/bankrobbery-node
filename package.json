@@ -1,0 +1,28 @@
+{
+  "name": "bankrobbery-node",
+  "version": "1.0.0",
+  "description": "Fun Bank Robbery quest based on http requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyTT/bankrobbery-node.git"
+  },
+  "keywords": [
+    "http",
+    "quest",
+    "bankrobbery"
+  ],
+  "author": "EvgeniyTT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyTT/bankrobbery-node/issues"
+  },
+  "homepage": "https://github.com/EvgeniyTT/bankrobbery-node#readme",
+  "dependencies": {
+    "node-static": "^0.7.9"
+  }
+}

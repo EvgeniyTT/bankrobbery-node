@@ -111,7 +111,7 @@ var server = http.createServer(function (request, response) {
   }
 
   if (request.method === 'GET' &&  request.url.split('/').pop() === 'home') {
-    fs.readFile("node/test.html" , function(error, info) {
+    fs.readFile("test.html" , function(error, info) {
       response.write(info);
       // response.statusCode=200;
       response.end();
