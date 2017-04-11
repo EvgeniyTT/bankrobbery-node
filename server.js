@@ -322,4 +322,8 @@ var server = http.createServer(function (request, response) {
     }
 });
 
-if (module.parent) { module.exports = server } else { server.listen(1337); }
+if (module.parent) { module.exports = server } else { 
+  server.listen(process.env.PORT, process.env.HOST);
+  console.log(`Server listening on http://${process.env.HOST}:${process.env.PORT}`)
+  console.log(`App is running on http://${process.env.HOST}:${process.env.PORT}/home`)
+}

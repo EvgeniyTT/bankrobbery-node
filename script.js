@@ -19,8 +19,7 @@ window.addEventListener('load', function(){
 
     if (teamName.value && levelKey.value) {
       var request = new XMLHttpRequest();
-      //request.open('POST','http://10.10.207.157:1337');
-      request.open('POST','http://127.0.0.1:1337');
+      request.open('POST','http://10.10.54.24:1337');
       request.onreadystatechange = function(req,res) {
         if (request.readyState == 4) {
           respBodyObj = JSON.parse(request.response);
